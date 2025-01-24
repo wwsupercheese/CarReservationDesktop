@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller", "Controller\Controller.csproj", "{CC8A78B8-F333-4D3B-86B6-DC1171769163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{09221BD9-D777-4FE9-868D-A653894B9C96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{8E68FF82-950A-47FC-9D49-B9CE988F745D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{D0872E4D-21BB-49F8-BB0D-8F7095C85FCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageLoader", "ImageLoader\ImageLoader.csproj", "{2AC3971A-A91F-48C5-9FB0-9A8D0336BB3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Translator", "Translator\Translator.csproj", "{82778123-9777-4D5B-BFF9-29A8FA46BBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMicroservice", "ImageMicroservice\ImageMicroservice.csproj", "{880A851A-167C-4957-8F2D-5E0F517EC1F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC8A78B8-F333-4D3B-86B6-DC1171769163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8A78B8-F333-4D3B-86B6-DC1171769163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8A78B8-F333-4D3B-86B6-DC1171769163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8A78B8-F333-4D3B-86B6-DC1171769163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09221BD9-D777-4FE9-868D-A653894B9C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09221BD9-D777-4FE9-868D-A653894B9C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09221BD9-D777-4FE9-868D-A653894B9C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09221BD9-D777-4FE9-868D-A653894B9C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E68FF82-950A-47FC-9D49-B9CE988F745D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E68FF82-950A-47FC-9D49-B9CE988F745D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E68FF82-950A-47FC-9D49-B9CE988F745D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E68FF82-950A-47FC-9D49-B9CE988F745D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0872E4D-21BB-49F8-BB0D-8F7095C85FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0872E4D-21BB-49F8-BB0D-8F7095C85FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0872E4D-21BB-49F8-BB0D-8F7095C85FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0872E4D-21BB-49F8-BB0D-8F7095C85FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC3971A-A91F-48C5-9FB0-9A8D0336BB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC3971A-A91F-48C5-9FB0-9A8D0336BB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC3971A-A91F-48C5-9FB0-9A8D0336BB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC3971A-A91F-48C5-9FB0-9A8D0336BB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82778123-9777-4D5B-BFF9-29A8FA46BBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82778123-9777-4D5B-BFF9-29A8FA46BBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82778123-9777-4D5B-BFF9-29A8FA46BBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82778123-9777-4D5B-BFF9-29A8FA46BBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880A851A-167C-4957-8F2D-5E0F517EC1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880A851A-167C-4957-8F2D-5E0F517EC1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880A851A-167C-4957-8F2D-5E0F517EC1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880A851A-167C-4957-8F2D-5E0F517EC1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C751E7A4-0B88-4DB8-BEA7-C92A7A5E07A9}
+	EndGlobalSection
+EndGlobal
